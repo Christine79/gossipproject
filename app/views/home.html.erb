@@ -1,0 +1,36 @@
+<header class="header">
+    <h1>c'est bôôôô hein?!<a href="http://localhost:3000/gossipproject/team">Team</a> <a href="http://localhost:3000/gossipproject/contact">Contact</a> </h1>
+</header>
+<h1>PO-POtins</h1>
+
+
+<table>
+  <thead>
+    <tr>
+        <div class="container">
+
+        </div>
+      <th>Potin de potin</th>
+      <th>par : </th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @potins.each do |potin| %>
+      <tr>
+        <td><%= potin.content %></td>
+        <td><%= potin.author %></td>
+      </tr>
+    <% end %>
+  </tbody>
+
+</table>
+</br>
+</br>
+</br>
+</br>
+
+<nav class="navbar">
+  <a class="navbar">voici touuuuus les potins</a>
+</nav>
